@@ -16,22 +16,22 @@ Most tools here depend on nothing but the Python standard library. Where a third
 
 | # | Skill | Directory | Code |
 |---|-------|-----------|------|
-| 1 | Tor & onion services | `tor-onion-services/` | 📝 docs only |
-| 2 | Email security (SPF/DKIM/DMARC) | `email-security-forensics/` | 📝 docs only |
-| 3 | Image forensics (EXIF/ELA) | `image-forensics/` | 📝 docs only |
-| 4 | Audio forensics (ENF splice detection) | `audio-forensics/` | 📝 docs only |
-| 5 | PDF forensics | `pdf-forensics/` | 📝 docs only |
-| 6 | OSINT & public-record workflow | `osint-workflow/` | 📝 docs only |
-| 7 | HTTP/1.1 from raw sockets | `http-raw-sockets/` | 📝 docs only |
-| 8 | Cryptography from scratch (AES/RSA/DH) | `crypto-from-scratch/` | 📝 docs only |
-| 9 | DNS internals & DNSSEC | `dns-internals/` | 📝 docs only |
-| 10 | SQLite/WAL forensics | `sqlite-forensics/` | 📝 docs only |
-| 11 | Video forensics (MP4/H.264) | `video-forensics/` | 📝 docs only |
-| 12 | Android APK forensics | `apk-forensics/` | 📝 docs only |
-| 13 | Office OOXML forensics | `ooxml-forensics/` | 📝 docs only |
-| 14 | Polite web crawler | `web-crawler/` | 📝 docs only |
-| 15 | Git internals & recovery | `git-internals/` | 📝 docs only |
-| 16 | PCAP/network forensics | `pcap-forensics/` | 📝 docs only |
+| 1 | Tor & onion services | `tor-onion-services/` | ✅ working code |
+| 2 | Email security (SPF/DKIM/DMARC) | `email-security-forensics/` | ✅ working code |
+| 3 | Image forensics (EXIF/ELA) | `image-forensics/` | ✅ working code |
+| 4 | Audio forensics (ENF splice detection) | `audio-forensics/` | ✅ working code |
+| 5 | PDF forensics | `pdf-forensics/` | ✅ |
+| 6 | OSINT & public-record workflow | `osint-workflow/` | ✅ working code |
+| 7 | HTTP/1.1 from raw sockets | `http-raw-sockets/` | ✅ working code |
+| 8 | Cryptography from scratch (AES/RSA/DH) | `crypto-from-scratch/` | ✅ working code |
+| 9 | DNS internals & DNSSEC | `dns-internals/` | ✅ working code |
+| 10 | SQLite/WAL forensics | `sqlite-forensics/` | ✅ working code |
+| 11 | Video forensics (MP4/H.264) | `video-forensics/` | ✅ working code |
+| 12 | Android APK forensics | `apk-forensics/` | ✅ working code |
+| 13 | Office OOXML forensics | `ooxml-forensics/` | ✅ |
+| 14 | Polite web crawler | `web-crawler/` | ✅ working code |
+| 15 | Git internals & recovery | `git-internals/` | ✅ |
+| 16 | PCAP/network forensics | `pcap-forensics/` | ✅ |
 | 17 | WhatsApp backup forensics | `whatsapp-forensics/` | ✅ |
 | 18 | Browser extension (CRX) forensics | `browser-extension-forensics/` | ✅ |
 | 19 | Windows PE forensics | `pe-forensics/` | ✅ |
@@ -41,11 +41,11 @@ Most tools here depend on nothing but the Python standard library. Where a third
 | 23 | QR code forensics & quishing triage | `qr-forensics/` | ✅ |
 | 24 | Full-text search engine (BM25) | `full-text-search/` | ✅ |
 | 25 | ML phishing/scam detection | `phishing-ml/` | ✅ |
-| 26 | Time-series forecasting | `time-series-forecasting/` | 📝 docs only |
+| 26 | Time-series forecasting | `time-series-forecasting/` | ✅ working code |
 | 27 | Steganography & steganalysis | `steganography/` | ✅ |
 | 28 | SQL database engine | `sql-database-engine/` | ✅ |
 | 29 | X.509/PKI certificate forensics | `certificate-forensics/` | ✅ |
-| 30 | ext4 filesystem forensics | `ext4-forensics/` | 📝 docs only |
+| 30 | ext4 filesystem forensics | `ext4-forensics/` | ✅ working code |
 | 31 | Coverage-guided fuzzing | `coverage-fuzzing/` | ✅ |
 | 32 | Tiny transformer (GPT from scratch) | `tiny-transformer/` | ✅ |
 | 33 | Geospatial routing (OSM) | `geo-routing/` | ✅ |

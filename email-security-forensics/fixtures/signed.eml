@@ -1,0 +1,14 @@
+DKIM-Signature: v=1; a=rsa-sha256; d=example.com; s=sel1; c=relaxed/simple; q=dns/txt; h=from:to:subject:date:message-id; bh=hsYi7icn4P9zp6rtbUzBsDVupe/wjlFrwsNXaPKDbVg=; b=aqDNniDPXcchFpRuQhmjx8WPcwnoznoldBZ5awwiJG8MP9EGAPIY6kVt2+jBc8Hj
+ u/g6etAvN9f+8/hjtvc+YQQyDZuiQ/DPvEKZcfLWvOL1z1p+r/6hAFp046U34LF/
+ bqN5cWniSMnC3perb9zj5Xnn2vbtv7JlCJ6DHqgtvAw=
+From: alice@example.com
+To: bob@example.org
+Subject: lunch tomorrow?
+Date: Thu, 08 Oct 2026 12:00:00 -0400
+Message-ID: <20261008.1@example.com>
+
+Hi Bob,
+
+Are we still on for lunch tomorrow at noon?
+
+-- Alice

@@ -1,0 +1,18 @@
+{
+  "txt": {
+    "example.com": "v=spf1 ip4:192.0.2.0/24 -all",
+    "sel1._domainkey.example.com": "v=DKIM1; k=rsa; p=MIGIAoGAdemvkBZi7gbsfdkQ2HPLgjXE4MU1IOMfAjwWk7o/5O/jrcd8+9xZXsCSP8RE7LjUmhCJN0GvSXfU+qgpirupkk3n4RtB69Zv3dSCqByw3q2I8qAuvZ+F0cOtrpLZkBuncIm9ZvJa4khnC4+Ip+Gc/KPZCOpxA+zv2qB2+9VH8MsCAwEAAQ==",
+    "_dmarc.example.com": "v=DMARC1; p=reject; adkim=r; aspf=r;"
+  },
+  "a": {
+    "example.com": [
+      "192.0.2.10"
+    ]
+  },
+  "mx": {
+    "example.com": [
+      "mail.example.com"
+    ]
+  },
+  "_note": "sender IP for fixtures: 192.0.2.44 (SPF pass); try 203.0.113.9 for SPF fail"
+}
