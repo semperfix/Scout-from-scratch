@@ -1,0 +1,16 @@
+fn map(f, a) {
+  let out = [];
+  for (let i = 0; i < len(a); i = i + 1) { out = push(out, f(a[i])); }
+  return out;
+}
+fn filter(f, a) {
+  let out = [];
+  for (let i = 0; i < len(a); i = i + 1) {
+    if (f(a[i])) { out = push(out, a[i]); }
+  }
+  return out;
+}
+print(map(fn(x) { return x * x; }, [1, 2, 3, 4]));
+// => [1, 4, 9, 16]
+print(filter(fn(x) { return x % 2 == 0; }, range(10)));
+// => [0, 2, 4, 6, 8]

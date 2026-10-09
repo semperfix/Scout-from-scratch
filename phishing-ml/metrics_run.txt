@@ -1,0 +1,6 @@
+logreg: acc=0.9883 prec=1.0000 rec=0.9769 f1=0.9883 roc_auc=0.9998 pr_auc=0.9998 (0.4s)
+gaussnb: acc=1.0000 prec=1.0000 rec=1.0000 f1=1.0000 roc_auc=1.0000 pr_auc=1.0000 (0.0s)
+5-fold CV (logreg): [0.9999 0.9999 0.9999 0.9997 0.9997]
+top weights: [('path_entropy', 0.198), ('subdomain_depth', 0.169), ('host_dots', 0.169), ('path_segments', 0.148), ('url_len', 0.135), ('is_https', 0.134), ('path_len', 0.129), ('risky_ext', 0.129), ('is_ip', 0.124), ('host_digit_ratio', 0.12)]
+text-nb: acc=0.9919 prec=0.9720 rec=0.9653 f1=0.9686 roc_auc=0.9853
+top spam tokens: ['claim', 'prize', '150p', 'tone', 'guaranteed', '18', 'www', 'cs']

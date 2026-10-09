@@ -1,0 +1,21 @@
+let x = 1;
+print(x);
+// => 1
+x = 2;
+print(x);
+// => 2
+{
+  let x = 10;
+  print(x);
+  // => 10
+  {
+    let y = x + 1;
+    print(y);
+    // => 11
+  }
+}
+print(x);
+// => 2
+let z;
+print(z);
+// => nil

@@ -1,0 +1,8 @@
+From legit@example.com Thu Oct  8 10:00:00 2026
+From: legit@example.com
+Subject: ok
+Date: Thu, 08 Oct 2026 10:00:00 -0400
+
+first line
+From forged@example.com Thu Oct  8 10:01:00 2026
+this pretends to be a delimiter

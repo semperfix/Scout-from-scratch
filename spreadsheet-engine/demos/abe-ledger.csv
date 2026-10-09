@@ -1,0 +1,9 @@
+Date,Description,Owed,Paid,Balance,Note
+2026-10-01,Week wages (tree work),450,,=C2-D2,"Abe: Cash App"
+2026-10-01,Top rail piece (deduction),-30,,=E2+C3-D3,"Abe: minus $30"
+2026-10-03,Partial payment,,100,=E3+C4-D4,"no receipt shown"
+2026-10-05,Extra day (Saturday),150,,=E4+C5-D5,
+,,,,,
+Total owed,=SUM(C2:C5),,,,=SUM(C2:C5)
+Total paid,=SUM(D2:D5),,,,=SUM(D2:D5)
+Still outstanding,,=B7-B8,,,"should equal last balance (E5)"

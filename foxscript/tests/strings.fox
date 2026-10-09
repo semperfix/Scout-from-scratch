@@ -1,0 +1,16 @@
+print("foo" + "bar");
+// => foobar
+print("a\nb");
+// => a
+// => b
+let s = "hello";
+print(len(s));
+// => 5
+print(s[1]);
+// => e
+print("x" + str(42));
+// => x42
+let t = "";
+for (let i = 0; i < 5; i = i + 1) { t = t + "*"; }
+print(t);
+// => *****

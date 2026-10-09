@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env/
+
+# Data too large for the repo — see each tool's README for download instructions
+*.pbf
+graph.pkl
+url_dataset.pkl
+*.pkl
+!ckpt.pkl
+
+# Test artifacts / scratch
+*.log
+.DS_Store

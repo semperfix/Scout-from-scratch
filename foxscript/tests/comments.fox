@@ -1,0 +1,3 @@
+// a comment line
+print(1); // trailing comment
+// => 1

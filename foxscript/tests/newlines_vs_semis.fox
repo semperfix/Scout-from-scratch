@@ -1,0 +1,10 @@
+let a = 1
+let b = 2
+print(a + b)
+// => 3
+let c = [
+  1,
+  2,
+]
+print(len(c))
+// => 2

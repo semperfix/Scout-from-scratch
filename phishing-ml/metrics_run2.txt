@@ -1,0 +1,4 @@
+logreg: acc=0.9852 prec=0.9997 rec=0.9710 f1=0.9851 roc_auc=0.9998 iters=63
+top weights: [('path_entropy', 0.208), ('host_dots', 0.168), ('subdomain_depth', 0.168), ('path_segments', 0.157), ('url_len', 0.142), ('risky_ext', 0.14), ('path_len', 0.137), ('is_ip', 0.121), ('host_digit_ratio', 0.117), ('host_digits', 0.117), ('host_len', 0.102), ('has_port', 0.098)]
+is_https weight now: 0.0076
+5-fold CV: [0.9995 0.9993 0.9998 0.9998 0.9998]

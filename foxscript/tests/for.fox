@@ -1,0 +1,11 @@
+let s = 0;
+for (let i = 0; i < 10; i = i + 1) { s = s + i; }
+print(s);
+// => 45
+let t = "";
+for (let i = 3; i > 0; i = i - 1) { t = t + str(i); }
+print(t);
+// => 321
+for (; false;) { print("never"); }
+print("ok");
+// => ok

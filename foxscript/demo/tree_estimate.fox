@@ -1,0 +1,69 @@
+// Tree-job estimator: price a removal job by tree height + hazard,
+// then work out crew days and per-person day pay.
+// Edit the `trees` list and the crew settings for a real quote.
+
+fn trunc(x) {
+  // integer part of x >= 0 (no floor() builtin, so loop it)
+  let t = 0;
+  while (t + 1 <= x) { t = t + 1; }
+  return t;
+}
+
+fn money(x) {
+  // format as $d.cc (x is assumed >= 0)
+  let d = trunc(x);
+  let c = trunc((x - d) * 100 + 0.000001);  // epsilon vs float dust
+  let cs = str(c);
+  if (c < 10) { cs = "0" + cs; }
+  return "$" + str(d) + "." + cs;
+}
+
+fn ceil(x) {
+  let i = 0;
+  while (i < x) { i = i + 1; }
+  return i;
+}
+
+// base price by height class, multiplied by hazard:
+//   hazard 1 = open drop zone, 2 = near house/lines, 3 = storm damage/technical
+fn price_for(h, hazard) {
+  let base = 250;
+  if (h >= 30) { base = 450; }
+  if (h > 60) { base = 750; }
+  let mult = 1;
+  if (hazard == 2) { mult = 1.5; }
+  if (hazard == 3) { mult = 2; }
+  return base * mult;
+}
+
+let trees = [
+  {"h": 25, "hazard": 1},
+  {"h": 28, "hazard": 1},
+  {"h": 45, "hazard": 2},
+  {"h": 50, "hazard": 2},
+  {"h": 70, "hazard": 1},
+  {"h": 40, "hazard": 3},
+];
+
+let crew_size = 3;
+let trees_per_day = 4;
+let labor_share = 0.5;  // half the job price goes to the crew
+
+let total = 0;
+for (let i = 0; i < len(trees); i = i + 1) {
+  let t = trees[i];
+  let p = price_for(t["h"], t["hazard"]);
+  total = total + p;
+  print("tree " + str(i + 1) + ": " + str(t["h"]) + "ft"
+        + " hazard " + str(t["hazard"]) + " -> " + money(p));
+}
+
+let days = ceil(len(trees) / trees_per_day);
+let crew_pay = total * labor_share;
+let day_pay = crew_pay / (crew_size * days);
+
+print("----");
+print("job total:      " + money(total));
+print("crew of " + str(crew_size) + ", " + str(days) + " day(s)");
+print("crew pool:      " + money(crew_pay));
+print("per-person day: " + money(day_pay));

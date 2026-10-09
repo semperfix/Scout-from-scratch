@@ -1,0 +1,13 @@
+let x = "outer";
+{
+  let x = "inner";
+  print(x);
+  // => inner
+}
+print(x);
+// => outer
+fn f(x) { return x * 2; }
+print(f(21));
+// => 42
+print(x);
+// => outer

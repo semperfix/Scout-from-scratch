@@ -1,0 +1,15 @@
+let m = {"name": "kyle", "age": 35};
+print(m["name"]);
+// => kyle
+m["age"] = 36;
+print(m["age"]);
+// => 36
+print(has(m, "name"));
+// => true
+print(has(m, "zzz"));
+// => false
+print(len(m));
+// => 2
+m["new"] = 1;
+print(m["new"]);
+// => 1

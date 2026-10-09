@@ -1,0 +1,10 @@
+fn first_pos(a) {
+  for (let i = 0; i < len(a); i = i + 1) {
+    if (a[i] > 0) { return i; }
+  }
+  return -1;
+}
+print(first_pos([-3, -1, 0, 7]));
+// => 3
+print(first_pos([-5, -2]));
+// => -1

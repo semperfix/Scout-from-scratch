@@ -1,0 +1,2 @@
+print(1 + "a");
+// !> two numbers or two strings

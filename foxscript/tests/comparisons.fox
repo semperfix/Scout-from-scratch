@@ -1,0 +1,24 @@
+print(1 < 2);
+// => true
+print(2 <= 2);
+// => true
+print(3 > 4);
+// => false
+print(3 >= 4);
+// => false
+print(1 == 1);
+// => true
+print(1 != 1);
+// => false
+print("a" == "a");
+// => true
+print(nil == nil);
+// => true
+print(nil == false);
+// => false
+let a = [1];
+let b = a;
+print(a == b);
+// => true
+print([1] == [1]);
+// => false

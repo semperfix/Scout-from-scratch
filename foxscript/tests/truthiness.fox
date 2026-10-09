@@ -1,0 +1,8 @@
+print(nil && true);
+// => nil
+print(false || 42);
+// => 42
+print(0 || "dflt");
+// => 0
+print(nil == false);
+// => false

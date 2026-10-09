@@ -1,0 +1,5 @@
+let t = clock();
+print(t > 0);
+// => true
+print(type(t));
+// => number

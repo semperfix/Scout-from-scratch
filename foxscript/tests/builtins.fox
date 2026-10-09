@@ -1,0 +1,31 @@
+print(str(42));
+// => 42
+print(str(4.5));
+// => 4.5
+print(str(nil));
+// => nil
+print(str(true));
+// => true
+print(num("3.5") + 1);
+// => 4.5
+print(type(1));
+// => number
+print(type("s"));
+// => string
+print(type([]));
+// => array
+print(type({}));
+// => map
+print(type(print));
+// => function
+print(type(nil));
+// => nil
+print(type(true));
+// => bool
+print(range(5));
+// => [0, 1, 2, 3, 4]
+print(range(2, 5));
+// => [2, 3, 4]
+assert(1 + 1 == 2, "math broke");
+print("assert ok");
+// => assert ok

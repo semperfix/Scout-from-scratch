@@ -1,0 +1,22 @@
+From: "Billing Dept" <billing@acme-invoices.example>
+To: Kyle Rhoton <kyle.rhoton@example.com>
+Cc: amanda.bruner@example.com,
+ tony.smith@example.com
+Subject: =?UTF-8?Q?Your_invoice_=E2=80=93_October_is_ready_for_review?=
+Date: Thu, 08 Oct 2026 08:05:59 -0400
+Message-ID: <invoice-4471-21@example.com>
+Content-Type: multipart/mixed; boundary="----=_Part_21_9917.1775300001"
+X-Gmail-Labels: Inbox,Unread
+
+------=_Part_21_9917.1775300001
+Content-Type: text/plain; charset=UTF-8
+
+Invoice attached. Let me know.
+------=_Part_21_9917.1775300001
+Content-Type: text/html; name="invoice.html"
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="invoice.html"
+
+PGh0bWw+PGJvZHk+PGgxPkludm9pY2UgIzQ0NzE8L2gxPjxwPkFtb3VudCBkdWU6ICQxLDI5OS4w
+MDwvcD48L2JvZHk+PC9odG1sPg==
+------=_Part_21_9917.1775300001--

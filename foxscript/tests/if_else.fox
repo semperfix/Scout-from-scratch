@@ -1,0 +1,12 @@
+let n = 7;
+if (n > 10) { print("big"); } else { print("small"); }
+// => small
+if (n == 7) { print("seven"); }
+// => seven
+if (false) { print("no"); }
+print("done");
+// => done
+if (nil) { print("truthy"); } else { print("falsy"); }
+// => falsy
+if (0) { print("zero is truthy"); }
+// => zero is truthy

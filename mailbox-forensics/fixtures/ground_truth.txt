@@ -1,0 +1,10 @@
+mbox messages: 8
+mbox subjects: thinking about you | Re: thinking about you | From the shop |
+  about the money | Your invoice — October is ready for review | saturday |
+  saw your truck | dinner
+attachment: invoice.html sha256=abe116a5af46a0fc89fa11e7b9e1705a88a9198a210c3dadcf8b9c2864a8d42f size=76
+escaped-from body: M3 body must contain ">From the shop floor" and NOT start a new message
+spoofed date: M4 Date=2024-10-14 vs Received=2026-10-07 (skew flag)
+maildir messages: 5 (2 new, 2 cur, 0 tmp-complete); UID1005 deleted (gap in uidl.txt)
+torn tmp: 1 partial file (1775300007.1007_0.host), 120 bytes
+thread: <CA+parent21@example.com> -> <CA+reply21@example.com>

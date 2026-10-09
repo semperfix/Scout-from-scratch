@@ -1,0 +1,11 @@
+let g = 10;
+fn get() { return g; }
+print(get());
+// => 10
+g = 20;
+print(get());
+// => 20
+fn f() { return 1; }
+f = 2;
+print(f);
+// => 2

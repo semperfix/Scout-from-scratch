@@ -1,0 +1,13 @@
+// Abe wages ledger -- the numbers as they stand.
+// Gross claimed via Cash App, minus the top rail piece.
+
+let gross = 450;
+let rail_deduction = 30;
+let net = gross - rail_deduction;
+
+print("=== Boss Man Abe: wages owed ===");
+print("gross claimed:       $" + str(gross));
+print("top rail piece:     -$" + str(rail_deduction));
+print("net owed:            $" + str(net));
+print("cash app proof:      none received");
+print("stories so far:      3 (sent it / bad reception / app stuck)");

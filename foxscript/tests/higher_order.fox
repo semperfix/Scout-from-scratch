@@ -1,0 +1,6 @@
+fn apply(f, x) { return f(x); }
+fn double(x) { return x * 2; }
+print(apply(double, 21));
+// => 42
+print(apply(fn(x) { return x + 1; }, 41));
+// => 42

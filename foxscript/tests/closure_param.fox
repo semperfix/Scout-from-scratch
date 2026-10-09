@@ -1,0 +1,6 @@
+fn adder(n) { return fn(x) { return x + n; }; }
+let add5 = adder(5);
+print(add5(10));
+// => 15
+print(add5(100));
+// => 105

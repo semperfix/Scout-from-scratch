@@ -1,0 +1,17 @@
+print(true && false);
+// => false
+print(true || false);
+// => true
+print(!true);
+// => false
+print(!nil);
+// => true
+print(!0);
+// => false
+fn boom() { print("BOOM"); return true; }
+print(false && boom());
+// => false
+print(true || boom());
+// => true
+print(1 < 2 && 2 < 3);
+// => true

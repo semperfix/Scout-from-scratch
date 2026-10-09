@@ -1,0 +1,2 @@
+basicConstraints=CA:FALSE
+subjectAltName=DNS:expired.example.com

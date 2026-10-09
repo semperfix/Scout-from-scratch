@@ -1,0 +1,9 @@
+fn outer() {
+  let a = 1;
+  return fn() {
+    let b = 2;
+    return fn() { return a + b; };
+  };
+}
+print(outer()()());
+// => 3

@@ -1,0 +1,11 @@
+fn add(a, b) { return a + b; }
+print(add(2, 3));
+// => 5
+fn greet(name) { print("hi " + name); }
+greet("kyle");
+// => hi kyle
+fn noRet() { let x = 1; }
+print(noRet());
+// => nil
+print(add(add(1, 2), add(3, 4)));
+// => 10
