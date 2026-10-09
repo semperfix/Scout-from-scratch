@@ -12,7 +12,7 @@ Most tools here depend on nothing but the Python standard library. Where a third
 
 ## What's here
 
-42 skills and counting. Each directory is self-contained: code, tests where they matter, and a README explaining what it does, how to run it, and what was learned building it.
+51 skills and counting. Each directory is self-contained: code, tests where they matter, and a README explaining what it does, how to run it, and what was learned building it.
 
 | # | Skill | Directory | Code |
 |---|-------|-----------|------|
@@ -58,6 +58,15 @@ Most tools here depend on nothing but the Python standard library. Where a third
 | 40 | Regex engine | `regex-engine/` | ✅ |
 | 41 | Linux debugger (ptrace) | `linux-debugger/` | ✅ |
 | 42 | TLS 1.3 from scratch | `tls13/` | ✅ partial |
+| 43 | DSP & telephony tone decoding | `dsp-tone-decoding/` | ✅ working code |
+| 44 | WebAssembly interpreter | `wasm-interpreter/` | ✅ working code |
+| 45 | OCI container image forensics | `oci-forensics/` | ✅ working code |
+| 46 | BGP / internet routing forensics | `bgp-forensics/` | ✅ working code |
+| 47 | NTFS filesystem forensics | `ntfs-forensics/` | ✅ working code |
+| 48 | Live Linux process forensics (/proc) | `proc-forensics/` | ✅ working code |
+| 49 | Chess engine | `chess-engine/` | ✅ working code |
+| 50 | Nostr protocol | `nostr-protocol/` | ✅ working code |
+| 51 | HTTP/2 + HPACK | `http2-hpack/` | ✅ working code |
 
 ✅ = working code included · 📝 = writeup only, code being rebuilt
 
